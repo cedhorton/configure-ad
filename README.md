@@ -55,11 +55,14 @@ Logged in to Domain Controller and installed Active Directory Domain Services.
 
 ![image](https://github.com/cedhorton/configure-ad/assets/173581553/a7267f09-89c7-4601-834e-302e449ef17f)
 
+![image](https://github.com/cedhorton/configure-ad/assets/173581553/9e2f926c-4023-4098-bfc7-78fa19561e7a)
+
+
 <p>
 In Active Directory Users and Computers (ADUC), I created an Organizational Unit (OU) called “_EMPLOYEES”,
 Created a new OU named “_ADMINS”,
 Created a new employee named “Jane Doe” with the username of “jane_admin” and
-added jane_admin to the “Domain Admins” Security Group
+added jane_admin to the “Domain Admins” Security Group.
 </p>
 <br />
 
