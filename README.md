@@ -63,11 +63,12 @@ added jane_admin to the “Domain Admins” Security Group.
 </p>
 <br />
 
+![image](https://github.com/cedhorton/configure-ad/assets/173581553/a6e9ec13-6c08-47a1-9242-6e139bb4c634)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the Azure Portal, I set the Client’s DNS settings to the Domain Controler’s Private IP address. I then logged in to the Client (Remote Desktop) as the original local admin (labuser) and joined it to the domain. I
+logged in to the Domain Controller (Remote Desktop) and verified that the Client showed up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain.
+
 </p>
 <br />
 
