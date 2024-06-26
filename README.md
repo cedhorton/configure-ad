@@ -72,11 +72,10 @@ logged in to the Domain Controller (Remote Desktop) and verified that the Client
 </p>
 <br />
 
+![image](https://github.com/cedhorton/configure-ad/assets/173581553/8c95c896-e433-4590-81db-a7eb9d04ebbe)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Allowed “domain users” access to remote desktop.
 </p>
 <br />
 
