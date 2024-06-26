@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Setup Resources In Azure
 - Ensure Connectivity Between the Client and Domain Controller
-- Step 3
+- Install Active Directory
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -41,11 +41,10 @@ Logged in to Client-1 with Remote Desktop to ping DC-1’s private IP address wi
 </p>
 <br />
 
+![image](https://github.com/cedhorton/configure-ad/assets/173581553/6dd08fec-9b84-4f4b-988a-ded0df31363b)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logged in to Domain Controller and installed Active Directory Domain Services.
 </p>
 <br />
 
