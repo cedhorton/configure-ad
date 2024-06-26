@@ -21,8 +21,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Setup Resources In Azure
 - Ensure Connectivity Between the Client and Domain Controller
-- Install Active Directory
-- Step 4
+- Installed Active Directory
+- Created an Admin and Normal User Account in AD
+- Joined Client to Domain
+- Setup Remote Desktop for non-administrative users on Client
+- Created a bunch of additional users and attempted to log into Client with one of the users
+
+ 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -48,11 +53,13 @@ Logged in to Domain Controller and installed Active Directory Domain Services.
 </p>
 <br />
 
+![image](https://github.com/cedhorton/configure-ad/assets/173581553/a7267f09-89c7-4601-834e-302e449ef17f)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Active Directory Users and Computers (ADUC), I created an Organizational Unit (OU) called “_EMPLOYEES”,
+Created a new OU named “_ADMINS”,
+Created a new employee named “Jane Doe” with the username of “jane_admin” and
+added jane_admin to the “Domain Admins” Security Group
 </p>
 <br />
 
