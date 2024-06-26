@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/cedhorton/configure-ad/assets/173581553/7a1e4dda-6497-4083-9021-4083296ca3e2)
 
 <p>
-Logged in to Client-1 with Remote Desktop to ping DC-1’s private IP address with ping -t <ip address> (perpetual ping). Logged in to the Domain Controller and enable ICMPv4 in on the local windows Firewall. Check back at Client-1 to see the ping succeed.
+Logged in to Client-1 with Remote Desktop to ping DC-1’s private IP address with ping -t <ip address> (perpetual ping). Logged in to the Domain Controller and enable ICMPv4 in the local windows Firewall. Checked back at Client-1 to see the ping succeed.
 
 </p>
 <br />
